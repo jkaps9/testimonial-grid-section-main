@@ -9,9 +9,9 @@
 }
 
 .testimonial-card {
-  @apply flex flex-col space-y-5 shadow-2xl rounded-xl p-10 mx-6;
+  @apply flex flex-col space-y-5 shadow-2xl rounded-xl p-10 mx-6 md:mx-0;
 }
 
 .profile-img {
-  @apply rounded-full h-10;
+  @apply rounded-full h-9;
 }

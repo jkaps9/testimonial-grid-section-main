@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     
     extend: {
-      fontFamily: {
-        'barlow': ['Barlow Semi Condensed', 'sans-serif'],
-      },
+      // fontFamily: {
+      //   'barlow': ['Barlow Semi Condensed', 'sans-serif'],
+      // },
       colors: {
         // Primary
         moderateViolet: 'hsl(263, 55%, 52%)',
@@ -14,8 +14,8 @@ module.exports = {
         veryDarkBlackishBlue: 'hsl(219, 29%, 14%)',
   
         // Neutral
-        lightGray: 'hsl(0, 0 %, 81 %)',
-        lightGrayishBlue: 'hsl(210, 46 %, 95 %)',
+        lightGray: 'hsl(0, 0%, 81%)',
+        lightGrayishBlue: 'hsl(210, 46%, 95%)',
       },
       fontSize: {
         mxsm: '0.813rem',
