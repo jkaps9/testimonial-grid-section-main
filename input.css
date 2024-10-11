@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h3 {
+    @apply opacity-50;
+  }
+}
+
+.testimonial-card {
+  @apply flex flex-col space-y-5 shadow-2xl rounded-xl p-10 mx-6;
+}
+
+.profile-img {
+  @apply rounded-full h-10;
+}
