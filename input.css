@@ -3,19 +3,31 @@
 @tailwind utilities;
 
 @layer base {
+  h2 {
+    @apply opacity-90;
+  }
+
   h3 {
     @apply opacity-50;
   }
 }
 
 .testimonial-card {
-  @apply flex flex-col space-y-5 shadow-2xl rounded-xl px-8 py-10 mx-6 md:mx-0;
+  @apply rounded-xl p-10;
 }
 
 .profile-img {
-  @apply rounded-full h-9;
+  @apply rounded-full h-10 w-10 ring-2 ring-purple-300;
 }
 
 .reviewer-row {
-  @apply flex items-center space-x-6 md:space-x-4;
+  @apply flex z-10 items-center space-x-4;
+}
+
+.large-text {
+  @apply relative z-10 mt-6 text-xl font-semibold;
+}
+
+.small-text {
+  @apply mt-6 opacity-50;
 }
