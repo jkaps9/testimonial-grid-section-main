@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     
     extend: {
-      // fontFamily: {
-      //   'barlow': ['Barlow Semi Condensed', 'sans-serif'],
-      // },
+      fontFamily: {
+        'sans': ['Barlow Semi Condensed', 'sans-serif'],
+      },
       colors: {
         // Primary
         moderateViolet: 'hsl(263, 55%, 52%)',

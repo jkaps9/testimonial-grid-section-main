@@ -154,7 +154,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Barlow Semi Condensed, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -635,10 +635,6 @@ h3 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-6 {
   gap: 1.5rem;
 }
@@ -685,19 +681,14 @@ h3 {
   font-weight: 500;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-veryDarkBlackishBlue {
   --tw-text-opacity: 1;
   color: hsl(219 29% 14% / var(--tw-text-opacity));
 }
 
-.text-gray-900 {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .ring-2 {
@@ -709,11 +700,6 @@ h3 {
 .ring-moderateViolet {
   --tw-ring-opacity: 1;
   --tw-ring-color: hsl(263 55% 52% / var(--tw-ring-opacity));
-}
-
-.ring-purple-300 {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(216 180 254 / var(--tw-ring-opacity));
 }
 
 .transition {
@@ -820,12 +806,6 @@ h3 {
 
   .md\:gap-7 {
     gap: 1.75rem;
-  }
-
-  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
   .md\:p-10 {
